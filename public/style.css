@@ -1,0 +1,47 @@
+.title{
+    color: rgb(190, 50, 50);
+}
+
+.desc{
+    color: rgb(130, 11, 11);
+}
+
+.center{
+    text-align: center;
+}
+
+.post{
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgba(46, 46, 46, 0.887) ;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.post:hover{
+    box-shadow: 15px 15px 15px rgba(46, 46, 46, 0.887) ;
+}
+
+.link{
+    color: brown;
+    text-decoration: none;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(117, 30, 30);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form{
+    margin: 20px;
+}
+
+.inp{
+    padding:0px 20px;
+}
+
+form{
+    display: inline;
+}

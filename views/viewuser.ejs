@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View User</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2 class="title center">You are viewing profile of <%= username %></h2>
+    <% for(spost of post){ %>
+        <div class="post">
+        <h2><%=post.username %></h2>
+        <h4><%=spost.content %></h4>
+        </div>
+    <% } %>
+</body>
+</html>
